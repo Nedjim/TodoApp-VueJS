@@ -1,0 +1,26 @@
+body {
+  background: $background;
+}
+
+header {
+  background: $dark;
+  h1 {
+    font-family: $popins;
+    color: $white;
+  }
+}
+
+section {
+  border: .1rem solid $greyLight;
+  font-family: $work;
+  #form {
+    input {
+      font-size: 1rem;
+    }
+  }
+  #list {
+    p {
+      margin-top: 1rem;
+    }
+  }
+}
